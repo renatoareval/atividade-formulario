@@ -13,16 +13,12 @@
 
 <body>
     <header class="cabecalho">
+        <h1>Lista de tarefas</h1>
 
-            <h1>Lista de tarefas</h1>
-
-            <div class="cabecalho-icone-ponto">
-                <img src="imgs/alert.svg" alt="">
-                <img src="imgs/ponto.svg" alt="" class="imagem-ponto">
-            </div>
-
-
-
+        <div class="cabecalho-icone-ponto">
+            <img src="imgs/alert.svg" alt="">
+            <img src="imgs/ponto.svg" alt="" class="imagem-ponto">
+        </div>
     </header>
 
     <main>
@@ -30,26 +26,21 @@
         <section class="section-formulario">
             <form class="formulario">
                 <div>
-                    <label class="teste" for="">Tarefas</label>
-
+                    <label for="tarefas">Tarefas</label>
                     <div class="input-icone">
-                        <input type="text" name="" id="">
+                        <input type="text" name="tarefas" id="tarefas">
                         <img src="imgs/list.svg" alt="">
                     </div>
                 </div>
 
                 <div>
-
-                    <label for="">Datas</label>
-
+                    <label for="data">Datas</label>
                     <div class="input-icone">
                         <input type="text" name="data" id="data">
                         <img src="imgs/calendario.svg" alt="">
                     </div>
                 </div>
-
                 <button class="botao">Adicionar</button>
-
             </form>
 
         </section>
@@ -57,81 +48,86 @@
         <section class="section-checkbox">
 
             <div class="checkbox">
-                <div class="checkboxElabel">
-                    <input type="checkbox" name="" id="" class="input-checkbox">
-                    <div class="labelETexto">
-                        <label class="label-checkbox">Pesquisa sobre React</label>
+                <div class="caixa-checkbox">
+                    <div class="caixa-input-label">
+                        <div class="checkbox-input">
+                            <input type="checkbox" name="pesquisa" id="pesquisa" class="input-checkbox">
+                        </div>
                         <div>
+                            <label for="pesquisa" class="checkbox-label">Pesquisa sobre React</label>
                             <p>14/08/2022 às 12 horas</p>
                         </div>
                     </div>
+
                 </div>
-                <div class="lixeira">
-                    <img src="imgs/lixeira.svg" alt="" class="lixeira">
-                </div>
-            </div>
-            <div class="checkbox">
-                <div class="checkboxElabel">
-                    <input type="checkbox" name="" id="" class="input-checkbox">
-                    <div class="labelETexto">
-                        <label class="label-checkbox">Pagar conta de energia</label>
-                        <div>
-                            <p>14/08/2022 às 13:30</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lixeira">
-                    <img src="imgs/lixeira.svg" alt="" class="lixeira">
+                <div>
+                    <img src="imgs/lixeira.svg" alt="">
                 </div>
             </div>
 
             <div class="checkbox">
-                <div class="checkboxElabel">
-                    <input type="checkbox" name="" id="" class="input-checkbox">
-                    <div class="labelETexto">
-                        <label class="label-checkbox">Trabalho de matemática</label>
+                <div class="caixa-checkbox">
+                    <div class="caixa-input-label">
+                        <div class="checkbox-input">
+                            <input type="checkbox" name="trabalho" id="trabalho" class="input-checkbox">
+                        </div>
                         <div>
-                            <p>10/08/2022 às 08:00</p>
+                            <label for="trabalho" class="checkbox-label">Trabalho de matemática</label>
+   
+                            <p>14/08/2022 às 12 horas</p>
                         </div>
                     </div>
+
                 </div>
-                <div class="lixeira">
-                    <img src="imgs/lixeira.svg" alt="" class="lixeira">
+                <div>
+                    <img src="imgs/lixeira.svg" alt="">
                 </div>
             </div>
-
 
             <div class="checkbox">
-                <div class="checkboxElabel">
-                    <input type="checkbox" name="" id="" class="input-checkbox">
-                    <div class="labelETexto">
-                        <label class="label-checkbox">Fazer compras</label>
+                <div class="caixa-checkbox">
+                    <div class="caixa-input-label">
+                        <div class="checkbox-input">
+                            <input type="checkbox" name="pagar" id="pagar" class="input-checkbox">
+                        </div>
                         <div>
-                            <p>10/08/2022 às 13:30</p>
+                            <label for="pagar" class="checkbox-label checkbox-riscado">Pagar conta de energia</label>
+                            <p>14/08/2022 às 12 horas</p>
                         </div>
                     </div>
+
                 </div>
-                <div class="lixeira">
-                    <img src="imgs/lixeira.svg" alt="" class="lixeira">
+                <div>
+                    <img src="imgs/lixeira.svg" alt="">
                 </div>
             </div>
 
-            <!-- <input type="checkbox" name="" id="">
-            <label for="">Pesquisa sobre React</label>
-            <p>14/08/2022</p>
-            <img src="imgs/lixeira.svg" alt="">
+            <div class="checkbox">
+                <div class="caixa-checkbox">
+                    <div class="caixa-input-label">
+                        <div class="checkbox-input">
+                            <input type="checkbox" name="compras" id="compras" class="input-checkbox">
+                        </div>
+                        <div>
+                            <label for="compras" class="checkbox-label checkbox-riscado">Fazer compras </label>
+                            <p>14/08/2022 às 12 horas</p>
+                        </div>
+                    </div>
 
+                </div>
+                <div>
+                    <img src="imgs/lixeira.svg" alt="">
+                </div>
+            </div>
 
-            <input type="checkbox" name="" id="">
-            <label for="">Pesquisa sobre React</label>
-            <p>14/08/2022</p>
-            <img src="imgs/lixeira.svg" alt="">
-
-            <input type="checkbox" name="" id="">
-            <label for="">Pesquisa sobre React</label>
-            <p>14/08/2022</p>
-            <img src="imgs/lixeira.svg" alt=""> -->
+            <div class="carregamento">
+                <div class="carregamento-caixa">
+                    <p class="texto-progresso">2 de 4 tarefas concluídas</p>
+                </div>
+            </div>
         </section>
+
+        
     </main>
 </body>
 
